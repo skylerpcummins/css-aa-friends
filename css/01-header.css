@@ -1,0 +1,80 @@
+body {
+  width: 100%;
+}
+
+.header {
+  z-index: 1;
+  position: relative;
+}
+
+.navbar {
+  width: 900px;
+  margin: 0 auto;
+  background-color: red;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+.navbar-links {
+  float: right;
+  position: relative;
+}
+
+.navbar-links > li {
+  float: left;
+  border-left: 1px solid lightgray;
+}
+
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.logo:hover, .navbar-links > li:hover{
+  background-color: black;
+}
+
+a.logo {
+  float: left;
+  border-right: 1px solid lightgray;
+  font-weight: 700;
+}
+
+.badge {
+  font-size: 14px;
+  border-radius: 50%;
+  background: black;
+  padding: 1px 6px;
+
+}
+
+.badge:hover {
+  background-color: red;
+}
+
+.header {
+  width: 100%;
+  background-color: red;
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: black;
+}
+
+li:hover .dropdown-menu {
+  display: block;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
